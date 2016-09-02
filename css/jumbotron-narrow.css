@@ -1,0 +1,201 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: gray;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.header{
+margin-top:10px;
+margin-bottom: 20px;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 1150px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+
+
+.container{
+background: #ffffff;
+}
+
+.container-boxes{
+    margin-right: -16px;
+    margin-left: -15px;
+}
+
+.boxes{
+  height: 235px;
+  text-align: center;
+font-style: normal;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.boxes a{
+  color:#fff;
+  cursor:pointer;
+}
+
+.boxes a:link{
+  text-decoration: none;
+}
+
+.boxes .glyphicon{
+      font-size: 5em;
+      margin-top: 55px;
+      opacity: .8;
+}
+
+.boxes:hover span{
+  text-shadow:
+  0 1px 0 #CCCCCC,
+  0 2px 0 #C9C9C9,
+  0 3px 0 #BBBBBB,
+  0 6px 1px rgba(0,0,0,.1),
+  0 0 5px rgba(0,0,0,.1),
+  0 1px 3px rgba(0,0,0,.3),
+  0 3px 5px rgba(0,0,0,.2),
+  0 5px 10px rgba(0,0,0,.25);
+  opacity:1;
+}
+
+.boxes .glyphicon{
+  transition:all .3s ease-in-out
+}
+.boxes .glyphicon::after{
+  transition:.35s
+}
+
+
+.color_green{
+  background:#55DEA8;
+}
+.color_orange{
+  background:#FF7659;
+}
+.color_purple{
+  background:#9E7AC2;
+}
+.color_red{
+  background:#F36174;
+}
+.color_yellow{
+  background:#F9CD35;
+}
+.color_blue{
+  background:#3879d9;
+}
+
+/* Custom page header */
+.transparent {
+  background:transparent;
+}
+
+
+.navbar-logo img{
+  padding:15px 0px;
+}
+
+.nav{
+  margin-top:25px;
+}
+
+.principal{
+margin-top:90px;
+}
+
+.banner
+{
+  background:red;
+  min-height:200px;
+}
+.banner .row
+{
+  text-align:center;
+  margin-top:50px;
+}
+.banner h1
+{
+  color:white;
+}
+
+
+
+/***********************************************************************
+*  OPAQUE NAVBAR SECTION
+***********************************************************************/
+.opaque-navbar {
+    background-color: rgba(0,0,0,0.5);
+  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    min-height: 90px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar.opaque {
+    background-color: black;
+    min-height: 90px;
+    transition: background-color .5s ease 0s;
+}
+
+ul.dropdown-menu {
+    background-color: black;
+}
+
+
+@media (max-width: 767px) {
+
+  .opaque-navbar {
+    background-color: black;
+    min-height: 90px;
+    transition: background-color .5s ease 0s;
+}
+
+}
